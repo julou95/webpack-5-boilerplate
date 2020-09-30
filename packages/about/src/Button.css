@@ -1,0 +1,18 @@
+.button {
+    background-color: #151515;
+    padding: 10px 20px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.ID {
+    background-color: #E41413;
+}
+
+.MSP {
+    background-color: #00AE6D;
+}

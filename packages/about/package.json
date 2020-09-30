@@ -1,0 +1,30 @@
+{
+  "name": "@basic-host-remote/about",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "7.11.1",
+    "@babel/preset-react": "7.10.4",
+    "babel-loader": "8.1.0",
+    "css-loader": "4.2.1",
+    "html-webpack-plugin": "4.3.0",
+    "serve": "11.3.2",
+    "style-loader": "1.2.1",
+    "webpack": "5.0.0-beta.25",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "serve": "serve dist -p 3002",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5"
+  }
+}

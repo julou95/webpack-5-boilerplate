@@ -1,0 +1,72 @@
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.4);
+}
+
+.headerContainer {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    line-height: 1;
+}
+
+.logo-MSP {
+    color: #00AE6D;
+}
+.logo-ID {
+    color: #E41413;
+}
+
+.headerNavigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.headerNavigationItem {
+    padding: 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #151515;
+    transition: all 0.2s ease;
+}
+
+.headerNavigationItem:first-of-type {
+    margin-right: 10px;
+}
+
+.headerNavigationItem:active,
+.headerNavigationItem:visited {
+    color: #151515;
+}
+
+.headerNavigationItem:hover {
+    background-color: rgba(0,0,0, 0.2);
+}
+
+.headerNavigationItemActive {
+    background-color: #151515;
+    color: white;
+}
+
+.headerNavigationItemActive:hover {
+    background-color: rgba(21, 21, 21, 0.9);
+    color: white;
+}
+
+.headerNavigationItemActive:active,
+.headerNavigationItemActive:visited {
+    color: white;
+}

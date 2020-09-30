@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    width: 900px;
+    margin: 20px auto;
+}
